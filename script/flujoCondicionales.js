@@ -8,18 +8,18 @@
 // Funciones--> 
 
 
-var resultado = 7;
+var resultado = 102;
 // si es menor que 10
 // si es mayor que 10 y menor que 25 incluido
 // si es mayor que 25 pero menor que 100 incluido
 // el resto de casos
 
 
-if (10 < resultado){
+if (10 > resultado){
     console.log('Es menor que 10');
-} else if (10 > resultado || 25 <= resultado){
+} else if (10 < resultado && 25 >= resultado){
     console.log('Esta entre 10 y 25');
-} else if   (25 > resultado || 100 <= resultado){
+} else if   (25 > resultado && 100 <= resultado){
     console.log('Esta entre 25 y 50');
 } else{
     console.log('Superiores que 100');
